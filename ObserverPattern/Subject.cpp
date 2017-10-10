@@ -9,12 +9,9 @@ Subject::Subject()
 
 Subject:: ~Subject()
 {
-    if(mObserverList.size() > 0)
+    for(int oi = 0; oi < mObserverList.size(); oi++)
     {
-        for(int oi = 0; oi < mObserverList.size(); oi++)
-        {
-            mObserverList.erase( mObserverList.begin() + oi );
-        }
+        mObserverList.erase( mObserverList.begin() + oi );
     }
     
     mObserverList.clear();
