@@ -1,3 +1,5 @@
+// MCO
+
 #include "Observer.hpp"
 
 void Observer::init(Subject *pSubject, const int pId)
