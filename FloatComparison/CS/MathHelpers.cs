@@ -29,6 +29,6 @@ namespace FloatComparisonHelper
 		public static bool definitelyLessThan(float a, float b)
     	{
 			return (b - a) > ((Mathf.Abs(a) < Mathf.Abs(b) ? Mathf.Abs(b) : Mathf.Abs(a)) * Mathf.Epsilon);
-    	}
+    	} 
 	}
 }
