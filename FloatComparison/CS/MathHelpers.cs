@@ -6,7 +6,7 @@ namespace FloatComparisonHelper
 	{
 		// Knuth D.E. The art of computer programming, vol II, section 4.2,
 		// especially Floating-Point Comparison 4.2.2, pages 198-220.
-        //
+        // 
 		// Also: Boost library Floating-point Comparison page
 
 		public static bool approximatelyEqual(float a, float b)
