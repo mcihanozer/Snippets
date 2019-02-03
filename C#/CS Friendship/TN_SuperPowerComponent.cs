@@ -12,7 +12,6 @@ using TN_Commons.TN_SuperPowers;
 public class TN_SuperPowerComponent
 {
     // Private interface for mimicing C++ friendship
-    // GOOD EXAMPLE: https://stackoverflow.com/a/37238655/1572782
     //
     // Super power level can change during the game via the related UI.
     // We can make aware TN_SuperPowerComponent via an event; however,
